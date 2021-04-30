@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div-hole {
+  font-family: 'Montserrat', sans-serif;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.div-top {
+  font-size: 20px;
+}
+.div-buttons {
+  padding-bottom: 20px;
+}
+.b-cat {
+  outline: none;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: teal;
+  font-size: 24px;
+  margin: 5px;
+  color: white;
+  background-color: teal;
+}
+.b-cat:hover {
+  background-color: rgb(14, 163, 163);
+  border-color: rgb(61, 144, 144);
+}
+.b-cat:disabled {
+  background-color: rgb(180, 180, 180);
+  border: rgb(155, 155, 155);
+}
+.b-dog {
+  outline: none;
+  border: solid 1px;
+  border-radius: 5px;
+  font-size: 24px;
+  margin: 5px;
+  color: white;
+  background-color: tomato;
+}
+.b-dog:hover {
+  background-color: rgb(255, 115, 90);
+  border-color: rgb(228, 114, 94);
+}
+.b-dog:disabled {
+  background-color: rgb(133, 133, 133);
+  border: rgb(133, 133, 133);
+}
+.b-horse {
+  outline: none;
+  border: solid 1px;
+  border-radius: 5px;
+  font-size: 24px;
+  margin: 5px;
+  color: white;
+  background-color: rgb(216, 68, 97);
+}
+.b-horse:hover {
+  background-color: rgb(212, 81, 107);
+  border-color: rgb(190, 80, 102);
+}
+.b-horse:disabled {
+  background-color: rgb(58, 58, 58);
+  border: rgb(54, 54, 54);
+}
+.p-text {
+  margin: 10px;
+  padding: 15px;
+  color: rgb(121, 120, 120);
+}
+.div-bottom {
+  font-size: 20px;
+  height: 35%;
+  border: solid #fad8d577 0.25px;
+  -webkit-box-shadow: 17px 15px 40px -8px rgba(250, 216, 213, 0.23);
+  -moz-box-shadow: 17px 15px 40px -8px rgba(250, 216, 213, 0.23);
+  box-shadow: 17px 15px 40px -8px rgba(250, 216, 213, 0.23);
+}
